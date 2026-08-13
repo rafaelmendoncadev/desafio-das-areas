@@ -1,0 +1,26 @@
+{
+  "name": "desafio_das_areas_site",
+  "version": "1.0.0",
+  "description": "Site educativo sobre conversão de unidades de área, baseado nos exercícios da foto da aula.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmendoncadev/desafio-das-areas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelmendoncadev/desafio-das-areas/issues"
+  },
+  "homepage": "https://github.com/rafaelmendoncadev/desafio-das-areas#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/core": "^8.5.0",
+    "sharp": "^0.35.3"
+  }
+}

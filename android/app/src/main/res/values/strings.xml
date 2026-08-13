@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Desafio das Áreas</string>
+    <string name="title_activity_main">Desafio das Áreas</string>
+    <string name="package_name">com.desafio.areas</string>
+    <string name="custom_url_scheme">com.desafio.areas</string>
+</resources>

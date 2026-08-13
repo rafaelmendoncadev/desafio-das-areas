@@ -1,0 +1,8 @@
+.vercel
+node_modules/
+android/app/build/
+android/build/
+android/capacitor-cordova-android-plugins/build/
+android/capacitor-android/build/
+*.apk
+.DS_Store

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="c3g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4338CA"/>
+      <stop offset="100%" style="stop-color:#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="c3g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818CF8"/>
+      <stop offset="100%" style="stop-color:#A78BFA"/>
+    </linearGradient>
+    <filter id="c3sh" x="-10%" y="-10%" width="125%" height="125%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#4338CA" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Icon: Ruler + Area block -->
+  <g id="icon" transform="translate(8, 8)" filter="url(#c3sh)">
+    <!-- Ruler base -->
+    <rect x="5" y="60" width="80" height="12" rx="3" fill="url(#c3g2)"/>
+
+    <!-- Ruler markings -->
+    <line x1="15" y1="60" x2="15" y2="67" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="30" y1="60" x2="30" y2="67" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="45" y1="60" x2="45" y2="67" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="60" y1="60" x2="60" y2="67" stroke="white" stroke-width="1.5" opacity="0.8"/>
+    <line x1="75" y1="60" x2="75" y2="67" stroke="white" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Area block rising from ruler -->
+    <rect x="15" y="10" width="55" height="52" rx="6" fill="url(#c3g1)"/>
+
+    <!-- Grid pattern on area block -->
+    <line x1="33" y1="10" x2="33" y2="62" stroke="white" stroke-width="1" opacity="0.25"/>
+    <line x1="52" y1="10" x2="52" y2="62" stroke="white" stroke-width="1" opacity="0.25"/>
+    <line x1="15" y1="28" x2="70" y2="28" stroke="white" stroke-width="1" opacity="0.25"/>
+    <line x1="15" y1="45" x2="70" y2="45" stroke="white" stroke-width="1" opacity="0.25"/>
+
+    <!-- Highlighted area cell -->
+    <rect x="17" y="12" width="15" height="15" rx="2" fill="white" opacity="0.9"/>
+    <rect x="35" y="12" width="15" height="15" rx="2" fill="white" opacity="0.55"/>
+    <rect x="17" y="30" width="15" height="15" rx="2" fill="white" opacity="0.55"/>
+    <rect x="35" y="30" width="15" height="15" rx="2" fill="white" opacity="0.3"/>
+
+    <!-- Dimension arrows -->
+    <line x1="75" y1="10" x2="75" y2="62" stroke="#7C3AED" stroke-width="1.5" stroke-dasharray="3,2"/>
+    <polygon points="75,8 72,14 78,14" fill="#7C3AED"/>
+    <polygon points="75,64 72,58 78,58" fill="#7C3AED"/>
+  </g>
+
+  <!-- Text -->
+  <g id="text">
+    <text x="108" y="40" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="800" fill="#1F2937" letter-spacing="-0.5">Desafio das</text>
+    <text x="108" y="76" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="900" fill="url(#c3g1)">ÁREAS</text>
+    <!-- Accent bar -->
+    <rect x="108" y="84" width="60" height="3" rx="1.5" fill="url(#c3g2)"/>
+    <text x="108" y="102" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="600" fill="#9CA3AF" letter-spacing="1.5">CONVERSÃO DE UNIDADES</text>
+  </g>
+</svg>
