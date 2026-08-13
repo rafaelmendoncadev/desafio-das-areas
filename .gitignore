@@ -4,5 +4,6 @@ android/app/build/
 android/build/
 android/capacitor-cordova-android-plugins/build/
 android/capacitor-android/build/
-*.apk
+/desafio-das-areas.apk
+www/downloads/
 .DS_Store
