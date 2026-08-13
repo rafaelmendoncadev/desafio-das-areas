@@ -99,68 +99,8 @@ footer{background:#111827;color:#d1d5db;text-align:center;padding:28px 22px}
 </header>
 
 <main>
-<section id="teoria">
-  <div class="section-title"><div><h2>1. Conteúdo teórico</h2><p class="muted">Conversão de unidades de medida de área.</p></div></div>
-  <div class="card">
-    <h3>Atenção: área é uma medida ao quadrado</h3>
-    <p>Nas medidas de comprimento, cada passo vale 10. Nas medidas de <strong>área</strong>, cada passo vale <strong>100</strong>, porque estamos trabalhando com unidades quadradas.</p>
-    <table class="unit-table">
-      <tr><th>Unidade</th><th>Nome</th><th>Relação com a unidade vizinha</th></tr>
-      <tr><td>km²</td><td>quilômetro quadrado</td><td>× 100 para hm²</td></tr>
-      <tr><td>hm²</td><td>hectômetro quadrado</td><td>× 100 para dam²</td></tr>
-      <tr><td>dam²</td><td>decâmetro quadrado</td><td>× 100 para m²</td></tr>
-      <tr><td>m²</td><td>metro quadrado</td><td>× 100 para dm²</td></tr>
-      <tr><td>dm²</td><td>decímetro quadrado</td><td>× 100 para cm²</td></tr>
-      <tr><td>cm²</td><td>centímetro quadrado</td><td>× 100 para mm²</td></tr>
-    </table>
-  </div>
-  <div class="grid" style="margin-top:18px">
-    <div class="card"><h3>➡️ Para a direita</h3><p>Multiplique por <strong>100</strong> a cada casa.</p><p>Ex.: m² → dm² = ×100.</p></div>
-    <div class="card"><h3>⬅️ Para a esquerda</h3><p>Divida por <strong>100</strong> a cada casa.</p><p>Ex.: m² → dam² = ÷100.</p></div>
-    <div class="card"><h3>🧠 Dica</h3><p>Conte quantos “saltos” existem entre as unidades. Dois saltos significam ×10.000 ou ÷10.000.</p></div>
-  </div>
-  <div class="card" style="margin-top:18px">
-    <div class="rule"><strong>Regra geral:</strong> em conversões de área, cada deslocamento na escala corresponde a duas casas na vírgula (×100 ou ÷100).</div>
-  </div>
-</section>
-
-<section id="exemplos">
-  <div class="section-title"><div><h2>2. Exemplos resolvidos</h2><p class="muted">Observe o caminho antes de responder.</p></div></div>
-  <div class="grid">
-    <div class="card example"><h3>Exemplo 1</h3><p><strong>4 m² → dm²</strong></p><ol class="steps"><li>m² → dm² = 1 salto.</li><li>1 salto = ×100.</li><li>4 × 100 = 400.</li></ol><div class="answer"><strong>Resposta: 400 dm²</strong></div></div>
-    <div class="card example"><h3>Exemplo 2</h3><p><strong>2,5 m² → cm²</strong></p><ol class="steps"><li>m² → dm² → cm² = 2 saltos.</li><li>2 saltos = ×10.000.</li><li>2,5 × 10.000 = 25.000.</li></ol><div class="answer"><strong>Resposta: 25.000 cm²</strong></div></div>
-    <div class="card example"><h3>Exemplo 3</h3><p><strong>7.200 cm² → m²</strong></p><ol class="steps"><li>cm² → dm² → m² = 2 saltos.</li><li>2 saltos = ÷10.000.</li><li>7.200 ÷ 10.000 = 0,72.</li></ol><div class="answer"><strong>Resposta: 0,72 m²</strong></div></div>
-    <div class="card example"><h3>Exemplo 4</h3><p><strong>0,6 km² → hm²</strong></p><ol class="steps"><li>km² → hm² = 1 salto.</li><li>1 salto = ×100.</li><li>0,6 × 100 = 60.</li></ol><div class="answer"><strong>Resposta: 60 hm²</strong></div></div>
-    <div class="card example"><h3>Exemplo 5</h3><p><strong>3.500 dam² → km²</strong></p><ol class="steps"><li>dam² → hm² → km² = 2 saltos.</li><li>2 saltos = ÷10.000.</li><li>3.500 ÷ 10.000 = 0,35.</li></ol><div class="answer"><strong>Resposta: 0,35 km²</strong></div></div>
-    <div class="card example"><h3>Exemplo 6</h3><p><strong>0,08 m² → cm²</strong></p><ol class="steps"><li>m² → dm² → cm² = 2 saltos.</li><li>2 saltos = ×10.000.</li><li>0,08 × 10.000 = 800.</li></ol><div class="answer"><strong>Resposta: 800 cm²</strong></div></div>
-  </div>
-</section>
-
-<section id="simulado">
-  <div class="section-title"><div><h2>3. Simulado</h2><p class="muted">5 questões por rodada. Você precisa fazer 5/5.</p></div></div>
-  <div class="card sim-card">
-    <div class="sim-header">
-      <div><strong id="roundLabel">Rodada 1</strong><div class="muted" id="usedLabel">Questões utilizadas: 0</div></div>
-      <div style="min-width:220px;flex:1"><div class="progress-wrap"><div class="progress" id="progress"></div></div></div>
-    </div>
-    <div id="quizArea"></div>
-    <div id="resultArea"></div>
-  </div>
-</section>
-
-<section id="exercicios">
-  <div class="section-title"><div><h2>4. Exercícios da aula</h2><p class="muted">As respostas ficam bloqueadas até você alcançar 5/5 no simulado.</p></div></div>
-  <div id="exerciseArea" class="locked">
-    <div class="card" id="lockCard">
-      <div class="lock">🔒</div>
-      <h3>Respostas bloqueadas</h3>
-      <p>Complete uma rodada do simulado com <strong>5 acertos em 5 questões</strong> para liberar a correção dos exercícios.</p>
-      <a class="btn btn-primary" href="#simulado">Ir para o simulado</a>
-    </div>
-  </div>
-</section>
 <section id="android">
-  <div class="section-title"><div><h2>5. Versão para Android</h2><p class="muted">Baixe o app e estude offline no seu celular.</p></div></div>
+  <div class="section-title"><div><h2>1. Versão para Android</h2><p class="muted">Baixe o app e estude offline no seu celular.</p></div></div>
 
   <div class="card" style="max-width:750px;margin:auto;text-align:center">
     <div style="font-size:3rem;margin-bottom:10px">📱</div>
@@ -195,6 +135,67 @@ footer{background:#111827;color:#d1d5db;text-align:center;padding:28px 22px}
     </div>
     <div class="rule" style="margin-top:20px">
       <strong>⚠️ Dica de segurança:</strong> Esse app é seguro e não coleta dados pessoais. O arquivo APK é assinado e pode ser verificado antes da instalação.
+    </div>
+  </div>
+</section>
+
+<section id="teoria">
+  <div class="section-title"><div><h2>2. Conteúdo teórico</h2><p class="muted">Conversão de unidades de medida de área.</p></div></div>
+  <div class="card">
+    <h3>Atenção: área é uma medida ao quadrado</h3>
+    <p>Nas medidas de comprimento, cada passo vale 10. Nas medidas de <strong>área</strong>, cada passo vale <strong>100</strong>, porque estamos trabalhando com unidades quadradas.</p>
+    <table class="unit-table">
+      <tr><th>Unidade</th><th>Nome</th><th>Relação com a unidade vizinha</th></tr>
+      <tr><td>km²</td><td>quilômetro quadrado</td><td>× 100 para hm²</td></tr>
+      <tr><td>hm²</td><td>hectômetro quadrado</td><td>× 100 para dam²</td></tr>
+      <tr><td>dam²</td><td>decâmetro quadrado</td><td>× 100 para m²</td></tr>
+      <tr><td>m²</td><td>metro quadrado</td><td>× 100 para dm²</td></tr>
+      <tr><td>dm²</td><td>decímetro quadrado</td><td>× 100 para cm²</td></tr>
+      <tr><td>cm²</td><td>centímetro quadrado</td><td>× 100 para mm²</td></tr>
+    </table>
+  </div>
+  <div class="grid" style="margin-top:18px">
+    <div class="card"><h3>➡️ Para a direita</h3><p>Multiplique por <strong>100</strong> a cada casa.</p><p>Ex.: m² → dm² = ×100.</p></div>
+    <div class="card"><h3>⬅️ Para a esquerda</h3><p>Divida por <strong>100</strong> a cada casa.</p><p>Ex.: m² → dam² = ÷100.</p></div>
+    <div class="card"><h3>🧠 Dica</h3><p>Conte quantos “saltos” existem entre as unidades. Dois saltos significam ×10.000 ou ÷10.000.</p></div>
+  </div>
+  <div class="card" style="margin-top:18px">
+    <div class="rule"><strong>Regra geral:</strong> em conversões de área, cada deslocamento na escala corresponde a duas casas na vírgula (×100 ou ÷100).</div>
+  </div>
+</section>
+
+<section id="exemplos">
+  <div class="section-title"><div><h2>3. Exemplos resolvidos</h2><p class="muted">Observe o caminho antes de responder.</p></div></div>
+  <div class="grid">
+    <div class="card example"><h3>Exemplo 1</h3><p><strong>4 m² → dm²</strong></p><ol class="steps"><li>m² → dm² = 1 salto.</li><li>1 salto = ×100.</li><li>4 × 100 = 400.</li></ol><div class="answer"><strong>Resposta: 400 dm²</strong></div></div>
+    <div class="card example"><h3>Exemplo 2</h3><p><strong>2,5 m² → cm²</strong></p><ol class="steps"><li>m² → dm² → cm² = 2 saltos.</li><li>2 saltos = ×10.000.</li><li>2,5 × 10.000 = 25.000.</li></ol><div class="answer"><strong>Resposta: 25.000 cm²</strong></div></div>
+    <div class="card example"><h3>Exemplo 3</h3><p><strong>7.200 cm² → m²</strong></p><ol class="steps"><li>cm² → dm² → m² = 2 saltos.</li><li>2 saltos = ÷10.000.</li><li>7.200 ÷ 10.000 = 0,72.</li></ol><div class="answer"><strong>Resposta: 0,72 m²</strong></div></div>
+    <div class="card example"><h3>Exemplo 4</h3><p><strong>0,6 km² → hm²</strong></p><ol class="steps"><li>km² → hm² = 1 salto.</li><li>1 salto = ×100.</li><li>0,6 × 100 = 60.</li></ol><div class="answer"><strong>Resposta: 60 hm²</strong></div></div>
+    <div class="card example"><h3>Exemplo 5</h3><p><strong>3.500 dam² → km²</strong></p><ol class="steps"><li>dam² → hm² → km² = 2 saltos.</li><li>2 saltos = ÷10.000.</li><li>3.500 ÷ 10.000 = 0,35.</li></ol><div class="answer"><strong>Resposta: 0,35 km²</strong></div></div>
+    <div class="card example"><h3>Exemplo 6</h3><p><strong>0,08 m² → cm²</strong></p><ol class="steps"><li>m² → dm² → cm² = 2 saltos.</li><li>2 saltos = ×10.000.</li><li>0,08 × 10.000 = 800.</li></ol><div class="answer"><strong>Resposta: 800 cm²</strong></div></div>
+  </div>
+</section>
+
+<section id="simulado">
+  <div class="section-title"><div><h2>4. Simulado</h2><p class="muted">5 questões por rodada. Você precisa fazer 5/5.</p></div></div>
+  <div class="card sim-card">
+    <div class="sim-header">
+      <div><strong id="roundLabel">Rodada 1</strong><div class="muted" id="usedLabel">Questões utilizadas: 0</div></div>
+      <div style="min-width:220px;flex:1"><div class="progress-wrap"><div class="progress" id="progress"></div></div></div>
+    </div>
+    <div id="quizArea"></div>
+    <div id="resultArea"></div>
+  </div>
+</section>
+
+<section id="exercicios">
+  <div class="section-title"><div><h2>5. Exercícios da aula</h2><p class="muted">As respostas ficam bloqueadas até você alcançar 5/5 no simulado.</p></div></div>
+  <div id="exerciseArea" class="locked">
+    <div class="card" id="lockCard">
+      <div class="lock">🔒</div>
+      <h3>Respostas bloqueadas</h3>
+      <p>Complete uma rodada do simulado com <strong>5 acertos em 5 questões</strong> para liberar a correção dos exercícios.</p>
+      <a class="btn btn-primary" href="#simulado">Ir para o simulado</a>
     </div>
   </div>
 </section>
