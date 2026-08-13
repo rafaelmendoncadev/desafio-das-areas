@@ -4,3 +4,5 @@ logos/
 *.mjs
 www/
 .github/
+package-lock.json
+.capacitor/

@@ -1,10 +1,13 @@
 {
+  "buildCommand": null,
+  "installCommand": null,
+  "framework": null,
   "headers": [
     {
-      "source": "/downloads/(.*)",
+      "source": "/downloads/(.*)\\.apk",
       "headers": [
         { "key": "Content-Type", "value": "application/vnd.android.package-archive" },
-        { "key": "Content-Disposition", "value": "attachment" }
+        { "key": "Content-Disposition", "value": "attachment; filename=\"desafio-das-areas.apk\"" }
       ]
     }
   ]
